@@ -9,13 +9,6 @@ public class ReplaceTextCommand implements TextCommand {
     this.replacement = replacement;
   }
 
-  public String getTarget() {
-    return target;
-  }
-  public String getReplacement() {
-    return replacement;
-  }
-
   @Override
   public String execute(String text) {
     return text.replace(target, replacement);
