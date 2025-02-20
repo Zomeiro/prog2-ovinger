@@ -8,6 +8,6 @@ public class ReplaceFirstTextCommand extends ReplaceTextCommand {
 
   @Override
   public String execute(String text) {
-    return text.replaceFirst(getTarget(), getReplacement());
+    return text.replaceFirst(target, replacement);
   }
 }
