@@ -1,8 +1,8 @@
 package com.bjorav.ovinger.commands;
 
 public class ReplaceTextCommand implements TextCommand {
-  private String target;
-  private String replacement;
+   String target;
+   String replacement;
 
   public ReplaceTextCommand(String target, String replacement) {
     this.target = target;
