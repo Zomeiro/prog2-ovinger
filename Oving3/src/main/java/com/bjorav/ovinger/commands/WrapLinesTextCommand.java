@@ -15,6 +15,6 @@ public class WrapLinesTextCommand extends WrapTextCommand {
       result.append(getOpening()).append(line).append(getEnd()).append("\n");
     }
 
-    return result.toString();
+    return result.toString().trim();
   }
 }
